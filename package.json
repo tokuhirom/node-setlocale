@@ -1,0 +1,19 @@
+{
+  "name": "setlocale",
+  "version": "0.0.2",
+  "description": "setlocale(3) wrapper for node.js",
+  "main": "setlocale",
+  "scripts": {
+    "test": "node test.js",
+    "install": "node-gyp rebuild"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "setlocale",
+    "locale"
+  ],
+  "engines": { "node":  ">=0.6.x" },
+  "author": "tokuhirom",
+  "license": "MIT",
+  "gypfile": true
+}
